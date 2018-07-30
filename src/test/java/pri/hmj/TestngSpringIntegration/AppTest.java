@@ -16,6 +16,7 @@ import org.testng.annotations.Test;
  * mvn test -DtestngxmlName=testng.xml
  * mvn命令执行一定要test结尾
  * clean 后要 project clean 
+ * 测试
  */
 public class AppTest  
     
