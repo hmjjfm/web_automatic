@@ -8,12 +8,12 @@
       <![CDATA[开始2]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="11865" started-at="2018-07-27T06:24:02Z" finished-at="2018-07-27T06:24:14Z">
+  <suite name="Suite" duration-ms="25533" started-at="2018-08-10T14:08:29Z" finished-at="2018-08-10T14:08:54Z">
     <groups>
     </groups>
-    <test name="test" duration-ms="11865" started-at="2018-07-27T06:24:02Z" finished-at="2018-07-27T06:24:14Z">
+    <test name="test" duration-ms="25533" started-at="2018-08-10T14:08:29Z" finished-at="2018-08-10T14:08:54Z">
       <class name="pri.hmj.TestngSpringIntegration.AppTest">
-        <test-method status="FAIL" signature="test()[pri:0, instance:pri.hmj.TestngSpringIntegration.AppTest@3234e239]" name="test" duration-ms="11837" started-at="2018-07-27T14:24:02Z" finished-at="2018-07-27T14:24:14Z">
+        <test-method status="FAIL" signature="test()[pri:0, instance:pri.hmj.TestngSpringIntegration.AppTest@36b4cef0]" name="test" duration-ms="25512" started-at="2018-08-10T22:08:29Z" finished-at="2018-08-10T22:08:54Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -24,7 +24,7 @@
 	at org.testng.Assert.failNotEquals(Assert.java:494)
 	at org.testng.Assert.assertTrue(Assert.java:42)
 	at org.testng.Assert.assertTrue(Assert.java:52)
-	at pri.hmj.TestngSpringIntegration.AppTest.test(AppTest.java:50)
+	at pri.hmj.TestngSpringIntegration.AppTest.test(AppTest.java:51)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

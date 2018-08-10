@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="12.746" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="29.336" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="CN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Java\jdk1.8.0_144\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\DS2016~1\AppData\Local\Temp\surefire8192782119772480583\surefirebooter2311340613517653139.jar C:\Users\DS20161115\AppData\Local\Temp\surefire8192782119772480583 2018-07-27T14-24-01_032-jvmRun1 surefire1973010629832161416tmp surefire_0762488468525066388tmp"/>
+    <property name="sun.java.command" value="C:\Users\DS2016~1\AppData\Local\Temp\surefire7345569071489483592\surefirebooter6912626756036739901.jar C:\Users\DS20161115\AppData\Local\Temp\surefire7345569071489483592 2018-08-10T22-08-24_962-jvmRun1 surefire1760847839925845243tmp surefire_02074866772141913908tmp"/>
     <property name="surefire.test.class.path" value="D:\eclipse_wp\TestngSpringIntegration\target\test-classes;D:\eclipse_wp\TestngSpringIntegration\target\classes;E:\repository\junit\junit\3.8.1\junit-3.8.1.jar;E:\repository\org\springframework\spring-context\4.3.8.RELEASE\spring-context-4.3.8.RELEASE.jar;E:\repository\org\springframework\spring-aop\4.3.8.RELEASE\spring-aop-4.3.8.RELEASE.jar;E:\repository\org\springframework\spring-beans\4.3.8.RELEASE\spring-beans-4.3.8.RELEASE.jar;E:\repository\org\springframework\spring-core\4.3.8.RELEASE\spring-core-4.3.8.RELEASE.jar;E:\repository\org\springframework\spring-expression\4.3.8.RELEASE\spring-expression-4.3.8.RELEASE.jar;E:\repository\org\springframework\spring-context-support\4.3.8.RELEASE\spring-context-support-4.3.8.RELEASE.jar;E:\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;E:\repository\javax\activation\activation\1.1\activation-1.1.jar;E:\repository\org\springframework\spring-test\4.3.8.RELEASE\spring-test-4.3.8.RELEASE.jar;E:\repository\org\testng\testng\6.8.7\testng-6.8.7.jar;E:\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;E:\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;E:\repository\org\yaml\snakeyaml\1.12\snakeyaml-1.12.jar;E:\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar;E:\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar;E:\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar;E:\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar;E:\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar;E:\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar;E:\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar;E:\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar;E:\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar;E:\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar;E:\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;E:\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;E:\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;E:\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;E:\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;E:\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;E:\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;E:\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;E:\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;E:\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;E:\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;E:\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;E:\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;E:\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;E:\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;E:\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;E:\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;E:\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;E:\repository\com\google\inject\guice\4.2.0\guice-4.2.0.jar;E:\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;E:\repository\velocity\velocity\1.4\velocity-1.4.jar;E:\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;E:\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;E:\repository\com\relevantcodes\extentreports\2.40.2\extentreports-2.40.2.jar;E:\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;E:\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;E:\repository\com\aventstack\extentreports\3.1.1\extentreports-3.1.1.jar;E:\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;E:\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;E:\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;E:\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;E:\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;E:\repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;E:\repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\DS20161115"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\DS2016~1\AppData\Local\Temp\surefire8192782119772480583\surefirebooter2311340613517653139.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\DS2016~1\AppData\Local\Temp\surefire7345569071489483592\surefirebooter6912626756036739901.jar"/>
     <property name="sun.boot.class.path" value="C:\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Java\jdk1.8.0_144\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -53,7 +53,7 @@
     <property name="testngxmlName" value="testng.xml"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
-    <property name="java.library.path" value="C:\Java\jdk1.8.0_144\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Java\jdk1.8.0_144\bin;D:\apache-maven-3.5.0\bin;D:\software_install\putty\;;D:\android-sdk_r24.4.1-windows\sdk\platform-tools;D:\android-sdk_r24.4.1-windows\sdk\tools;."/>
+    <property name="java.library.path" value="C:\Java\jdk1.8.0_144\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Java\jdk1.8.0_144\bin;D:\apache-maven-3.5.0\bin;D:\software_install\putty\;D:\android-sdk_r24.4.1-windows\sdk\platform-tools;D:\android-sdk_r24.4.1-windows\sdk\tools;D:\software_install\Git\bin;C:\py;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.144-b01"/>
@@ -61,18 +61,21 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="test" classname="pri.hmj.TestngSpringIntegration.AppTest" time="11.858">
+  <testcase name="test" classname="pri.hmj.TestngSpringIntegration.AppTest" time="25.52">
     <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
-	at pri.hmj.TestngSpringIntegration.AppTest.test(AppTest.java:50)
+	at pri.hmj.TestngSpringIntegration.AppTest.test(AppTest.java:51)
 </failure>
-    <system-out><![CDATA[[INFO ] 2018-07-27 14:24:02,472 method:pri.hmj.TestngSpringIntegration.AppTest.test(AppTest.java:32)
+    <system-out><![CDATA[[INFO ] 2018-08-10 22:08:29,198 method:pri.hmj.TestngSpringIntegration.AppTest.test(AppTest.java:33)
 開始2
 驱动
 启动
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 16253
+    <system-err><![CDATA[log4j:WARN No such property [datePattern] in org.apache.log4j.ConsoleAppender.
+log4j:ERROR Failed to rename [log/log.log] to [log/log.log. 2018-07-27].
+log4j:ERROR Failed to rename [log/log.log] to [log/log.log. 2018-07-27].
+Starting ChromeDriver 2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab) on port 12896
 Only local connections are allowed.
-Jul 27, 2018 2:24:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Aug 10, 2018 10:08:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
