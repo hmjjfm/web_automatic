@@ -1,9 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="Suite" parallel="false">
 	<listeners><!-- 使用reportng生成报告或使用自定义报告生成器 -->
-	<!-- 	 <listener class-name="org.uncommons.reportng.HTMLReporter" />
-		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />  -->
- 		<listener class-name="pri.hmj.listener.ExtentTestNGIReporterListener"></listener> 
+	 <listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> 
+ 		<!-- <listener class-name="pri.hmj.listener.ExtentTestNGIReporterListener"></listener>  -->
 	</listeners>
 	<test name="test" preserve-order="true">
 		<classes><!--mvn命令执行要在test没目录下  如果右键运行要在main下 -->

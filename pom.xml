@@ -103,7 +103,7 @@
 
 		</dependency>
 		<!-- extentreports报表的依赖 -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
 			<version>3.1.1</version>
@@ -113,7 +113,7 @@
 					<artifactId>mongodb-driver</artifactId>
 				</exclusion>
 			</exclusions>
-		</dependency>
+		</dependency> -->
 		<!-- https://mvnrepository.com/artifact/org.freemarker/freemarker -->
 		<dependency>
 			<groupId>org.freemarker</groupId>
@@ -139,7 +139,8 @@
 							<!-- Setting ReportNG listeners -->
 							<property>
 								<name>listener</name>
-								<value>pri.hmj.listener.ExtentTestNGIReporterListener
+								<value>org.uncommons.reportng.JUnitXMLReporter,
+								org.uncommons.reportng.HTMLReporter
 								</value>
 							</property>
 						</properties>
