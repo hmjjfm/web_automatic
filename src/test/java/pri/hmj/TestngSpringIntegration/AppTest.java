@@ -33,7 +33,7 @@ public class AppTest
 		logger.info("開始2");
 		Reporter.log("开始");
 		Reporter.log("开始2");
-		System.setProperty("webdriver.chrome.driver", "D:\\driver_exe\\chromedriver_win32(2.40)\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\chromedriver.exe");
 		System.out.println("驱动");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.baidu.com/");
