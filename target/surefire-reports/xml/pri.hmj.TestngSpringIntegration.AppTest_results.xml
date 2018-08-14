@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="26.603">
+           time="12.460">
   <properties />
   
   
-            <testcase name="test" time="26.603" classname="pri.hmj.TestngSpringIntegration.AppTest" />
+            <testcase name="test" time="12.460" classname="pri.hmj.TestngSpringIntegration.AppTest" />
       
 </testsuite>
