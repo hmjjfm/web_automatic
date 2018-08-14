@@ -8,12 +8,12 @@
       <![CDATA[开始2]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="12468" started-at="2018-08-14T12:30:11Z" finished-at="2018-08-14T12:30:23Z">
+  <suite name="Suite" duration-ms="12006" started-at="2018-08-14T13:00:51Z" finished-at="2018-08-14T13:01:03Z">
     <groups>
     </groups>
-    <test name="test" duration-ms="12468" started-at="2018-08-14T12:30:11Z" finished-at="2018-08-14T12:30:23Z">
+    <test name="test" duration-ms="12006" started-at="2018-08-14T13:00:51Z" finished-at="2018-08-14T13:01:03Z">
       <class name="pri.hmj.TestngSpringIntegration.AppTest">
-        <test-method status="PASS" signature="test()[pri:0, instance:pri.hmj.TestngSpringIntegration.AppTest@4fe3c938]" name="test" duration-ms="12460" started-at="2018-08-14T20:30:11Z" finished-at="2018-08-14T20:30:23Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:pri.hmj.TestngSpringIntegration.AppTest@4fe3c938]" name="test" duration-ms="11998" started-at="2018-08-14T21:00:51Z" finished-at="2018-08-14T21:01:03Z">
           <reporter-output>
             <line>
               <![CDATA[开始]]>
