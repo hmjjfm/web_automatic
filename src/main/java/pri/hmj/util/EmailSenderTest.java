@@ -15,7 +15,6 @@ public class EmailSenderTest {
 
 	private JavaMailSender mailSender;
 
-	@Test
 	public void sendSimpleEmail() throws MessagingException {
 		// SimpleMailMessage message = new SimpleMailMessage();//消息构造器
 		RootConfig config = new RootConfig();
