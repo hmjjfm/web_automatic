@@ -9,9 +9,8 @@ import javax.mail.internet.MimeMessage;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
-import org.testng.annotations.Test;
 
-public class EmailSenderTest {
+public class EmailSenderTools {
 
 	private JavaMailSender mailSender;
 
